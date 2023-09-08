@@ -53,7 +53,7 @@ function result() {
         //create the temperature string temperatureString = temperatureCelsius + " Celsius"//
         //assign the temperature string to a constant variable//
         const temperature = `${temperatureCelsius} Celsius`;
-        newStory = newStory.replaceAll("94 Fahrenheit", temperature);
+        newStory = newStory.replaceAll("94 fahrenheit", temperature);
         newStory = newStory.replaceAll("300 pounds", weight + ' stones');
 
     }
